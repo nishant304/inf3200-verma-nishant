@@ -1,0 +1,2852 @@
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-2-1
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-2-2
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-2-1:8030
+join request is  compute-2-2:8030
+ corresponding join response is  compute-2-1:8030
+compute-2-2.local - - [08/Nov/2015 21:36:40] "PUT /join HTTP/1.1" 200 -
+join response compute-2-1:8030
+election  :20995
+election  :20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:40] "PUT /election HTTP/1.1" 200 -
+election response compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+election started
+use message queue compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+message from queue is compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:40] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+election started
+election result here   compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+election result here   compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:40] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:40 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:40] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-2-3
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-2-2:8030
+join request is  compute-2-3:8030
+ corresponding join response is  compute-2-2:8030
+compute-2-3.local - - [08/Nov/2015 21:36:41] "PUT /join HTTP/1.1" 200 -
+join response compute-2-2:8030
+election  :17761
+election  :17761:20995
+election  :17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:41] "PUT /election HTTP/1.1" 200 -
+election response compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+election started
+use message queue compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+message from queue is compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+election started
+election result here   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+election started
+election result here   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+election result here   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:41 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:41] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-6-1
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-2-3:8030
+join request is  compute-6-1:8030
+ corresponding join response is  compute-2-3:8030
+compute-6-1.local - - [08/Nov/2015 21:36:42] "PUT /join HTTP/1.1" 200 -
+join response compute-2-3:8030
+election  :5343
+election  :5343:17761
+election  :5343:17761:20995
+election  :5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:42] "PUT /election HTTP/1.1" 200 -
+election response compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election started
+use message queue compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+message from queue is compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election started
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election started
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:42 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:42] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-6-2
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-6-1:8030
+join request is  compute-6-2:8030
+ corresponding join response is  compute-6-1:8030
+compute-6-2.local - - [08/Nov/2015 21:36:43] "PUT /join HTTP/1.1" 200 -
+join response compute-6-1:8030
+election  :4145
+election  :4145:5343
+election  :4145:5343:17761
+election  :4145:5343:17761:20995
+election  :4145:5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:43] "PUT /election HTTP/1.1" 200 -
+election response compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election started
+use message queue compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+message from queue is compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election started
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:36:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election started
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:36:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:43 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:43] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-6-3
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-6-2:8030
+join request is  compute-6-3:8030
+ corresponding join response is  compute-6-2:8030
+compute-6-3.local - - [08/Nov/2015 21:36:44] "PUT /join HTTP/1.1" 200 -
+join response compute-6-2:8030
+election  :19037
+election  :19037:4145
+election  :19037:4145:5343
+election  :19037:4145:5343:17761
+election  :19037:4145:5343:17761:20995
+election  :19037:4145:5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:44] "PUT /election HTTP/1.1" 200 -
+election response compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election started
+use message queue compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+message from queue is compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election started
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:36:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:36:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election started
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:36:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:36:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:44 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:44] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-1
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-6-3:8030
+join request is  compute-7-1:8030
+ corresponding join response is  compute-6-3:8030
+compute-7-1.local - - [08/Nov/2015 21:36:45] "PUT /join HTTP/1.1" 200 -
+join response compute-6-3:8030
+election  :15108
+election  :15108:19037
+election  :15108:19037:4145
+election  :15108:19037:4145:5343
+election  :15108:19037:4145:5343:17761
+election  :15108:19037:4145:5343:17761:20995
+election  :15108:19037:4145:5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+use message queue compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+message from queue is compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:36:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election started
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:45 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:45] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-2
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-7-1:8030
+join request is  compute-7-2:8030
+ corresponding join response is  compute-7-1:8030
+compute-7-2.local - - [08/Nov/2015 21:36:46] "PUT /join HTTP/1.1" 200 -
+join response compute-7-1:8030
+election  :2477
+election  :2477:15108
+election  :2477:15108:19037
+election  :2477:15108:19037:4145
+election  :2477:15108:19037:4145:5343
+election  :2477:15108:19037:4145:5343:17761
+election  :2477:15108:19037:4145:5343:17761:20995
+election  :2477:15108:19037:4145:5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+use message queue compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+message from queue is compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+compute-2-3.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+compute-7-2.local - - [08/Nov/2015 21:36:46] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election started
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-7-2.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:46 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:46] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-3
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-7-2:8030
+join request is  compute-7-3:8030
+ corresponding join response is  compute-7-2:8030
+compute-7-3.local - - [08/Nov/2015 21:36:47] "PUT /join HTTP/1.1" 200 -
+join response compute-7-2:8030
+election  :13342
+election  :13342:2477
+election  :13342:2477:15108
+election  :13342:2477:15108:19037
+election  :13342:2477:15108:19037:4145
+election  :13342:2477:15108:19037:4145:5343
+election  :13342:2477:15108:19037:4145:5343:17761
+election  :13342:2477:15108:19037:4145:5343:17761:20995
+election  :13342:2477:15108:19037:4145:5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+use message queue compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+message from queue is compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-2-3.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-7-2.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+compute-7-3.local - - [08/Nov/2015 21:36:47] "PUT /election HTTP/1.1" 200 -
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election started
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-7-2.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-7-3.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:47 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:47] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-0
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-7-3:8030
+join request is  compute-7-0:8030
+ corresponding join response is  compute-7-3:8030
+compute-7-0.local - - [08/Nov/2015 21:36:48] "PUT /join HTTP/1.1" 200 -
+join response compute-7-3:8030
+election  :29209
+election  :29209:13342
+election  :29209:13342:2477
+election  :29209:13342:2477:15108
+election  :29209:13342:2477:15108:19037
+election  :29209:13342:2477:15108:19037:4145
+election  :29209:13342:2477:15108:19037:4145:5343
+election  :29209:13342:2477:15108:19037:4145:5343:17761
+election  :29209:13342:2477:15108:19037:4145:5343:17761:20995
+election  :29209:13342:2477:15108:19037:4145:5343:17761:20995:19346
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+use message queue compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+message from queue is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-7-2.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-7-3.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+compute-7-0.local - - [08/Nov/2015 21:36:48] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election started
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-7-2.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-7-3.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-7-0.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:36:48 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:36:48] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-2-1
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-2-2
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-2-1:8030
+join request is  compute-2-2:8030
+ corresponding join response is  compute-2-1:8030
+compute-2-2.local - - [08/Nov/2015 21:38:36] "PUT /join HTTP/1.1" 200 -
+join response compute-2-1:8030
+election  :24424
+election  :24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:36] "PUT /election HTTP/1.1" 200 -
+election response compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+election started
+use message queue compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+message from queue is compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:36] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+election started
+election result here   compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+election result here   compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:37] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-2-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:36 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:37] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-2-3
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-2-2:8030
+join request is  compute-2-3:8030
+ corresponding join response is  compute-2-2:8030
+compute-2-3.local - - [08/Nov/2015 21:38:37] "PUT /join HTTP/1.1" 200 -
+join response compute-2-2:8030
+election  :21196
+election  :21196:24424
+election  :21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:37] "PUT /election HTTP/1.1" 200 -
+election response compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+election started
+use message queue compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+message from queue is compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:37] "PUT /election HTTP/1.1" 200 -
+election result here   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+election started
+compute-2-3.local - - [08/Nov/2015 21:38:37] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+election started
+election result here   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+election result here   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:38] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:38] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-2-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:37 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:38] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-6-1
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-2-3:8030
+join request is  compute-6-1:8030
+ corresponding join response is  compute-2-3:8030
+compute-6-1.local - - [08/Nov/2015 21:38:39] "PUT /join HTTP/1.1" 200 -
+join response compute-2-3:8030
+election  :8844
+election  :8844:21196
+election  :8844:21196:24424
+election  :8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:39] "PUT /election HTTP/1.1" 200 -
+election response compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election started
+use message queue compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+message from queue is compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:39] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election started
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:39] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:39] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election started
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election result here   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:39] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:39] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:39] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:39 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:39] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-6-2
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-6-1:8030
+join request is  compute-6-2:8030
+ corresponding join response is  compute-6-1:8030
+compute-6-2.local - - [08/Nov/2015 21:38:40] "PUT /join HTTP/1.1" 200 -
+join response compute-6-1:8030
+election  :7644
+election  :7644:8844
+election  :7644:8844:21196
+election  :7644:8844:21196:24424
+election  :7644:8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:40] "PUT /election HTTP/1.1" 200 -
+election response compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election started
+use message queue compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+message from queue is compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:40] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election started
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:40] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:40] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:38:40] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election started
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election result here   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:40] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:40] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:40] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:38:40] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:40 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:40] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-6-3
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-6-2:8030
+join request is  compute-6-3:8030
+ corresponding join response is  compute-6-2:8030
+compute-6-3.local - - [08/Nov/2015 21:38:41] "PUT /join HTTP/1.1" 200 -
+join response compute-6-2:8030
+election  :22540
+election  :22540:7644
+election  :22540:7644:8844
+election  :22540:7644:8844:21196
+election  :22540:7644:8844:21196:24424
+election  :22540:7644:8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:41] "PUT /election HTTP/1.1" 200 -
+election response compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election started
+use message queue compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+message from queue is compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election started
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:38:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:38:41] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election started
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election result here   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:38:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:38:41] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-6-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:41 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:41] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-1
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-6-3:8030
+join request is  compute-7-1:8030
+ corresponding join response is  compute-6-3:8030
+compute-7-1.local - - [08/Nov/2015 21:38:42] "PUT /join HTTP/1.1" 200 -
+join response compute-6-3:8030
+election  :18723
+election  :18723:22540
+election  :18723:22540:7644
+election  :18723:22540:7644:8844
+election  :18723:22540:7644:8844:21196
+election  :18723:22540:7644:8844:21196:24424
+election  :18723:22540:7644:8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election response compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+use message queue compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+message from queue is compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+compute-2-3.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:38:42] "PUT /election HTTP/1.1" 200 -
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election started
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election result here   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-1:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:42 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:42] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-2
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-7-1:8030
+join request is  compute-7-2:8030
+ corresponding join response is  compute-7-1:8030
+compute-7-2.local - - [08/Nov/2015 21:38:43] "PUT /join HTTP/1.1" 200 -
+join response compute-7-1:8030
+election  :5995
+election  :5995:18723
+election  :5995:18723:22540
+election  :5995:18723:22540:7644
+election  :5995:18723:22540:7644:8844
+election  :5995:18723:22540:7644:8844:21196
+election  :5995:18723:22540:7644:8844:21196:24424
+election  :5995:18723:22540:7644:8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+use message queue compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+message from queue is compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+compute-7-2.local - - [08/Nov/2015 21:38:43] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election started
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result here   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-7-2.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-2:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:43 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:43] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-3
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-7-2:8030
+join request is  compute-7-3:8030
+ corresponding join response is  compute-7-2:8030
+compute-7-3.local - - [08/Nov/2015 21:38:44] "PUT /join HTTP/1.1" 200 -
+join response compute-7-2:8030
+election  :16845
+election  :16845:5995
+election  :16845:5995:18723
+election  :16845:5995:18723:22540
+election  :16845:5995:18723:22540:7644
+election  :16845:5995:18723:22540:7644:8844
+election  :16845:5995:18723:22540:7644:8844:21196
+election  :16845:5995:18723:22540:7644:8844:21196:24424
+election  :16845:5995:18723:22540:7644:8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+use message queue compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+message from queue is compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+compute-7-2.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+compute-7-3.local - - [08/Nov/2015 21:38:44] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election started
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result here   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-7-2.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-7-3.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-3:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:44 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:44] "PUT /result HTTP/1.1" 200 -
+election result
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:217: SyntaxWarning: name 'next' is used prior to global declaration
+  global next
+/home/nve002/Distributed/mandatory-master/assignment2/distributed2/node.py:11: DeprecationWarning: the md5 module is deprecated; use hashlib instead
+  import md5
+ arg is compute-2-1
+ arg is 8030
+node ip compute-7-0
+node port 8030
+join ip compute-2-1
+join port 8030
+join port is 8030
+nishant join request successful compute-7-3:8030
+join request is  compute-7-0:8030
+ corresponding join response is  compute-7-3:8030
+compute-7-0.local - - [08/Nov/2015 21:38:45] "PUT /join HTTP/1.1" 200 -
+join response compute-7-3:8030
+election  :32711
+election  :32711:16845
+election  :32711:16845:5995
+election  :32711:16845:5995:18723
+election  :32711:16845:5995:18723:22540
+election  :32711:16845:5995:18723:22540:7644
+election  :32711:16845:5995:18723:22540:7644:8844
+election  :32711:16845:5995:18723:22540:7644:8844:21196
+election  :32711:16845:5995:18723:22540:7644:8844:21196:24424
+election  :32711:16845:5995:18723:22540:7644:8844:21196:24424:22783
+leader is this node
+compute-2-1.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+use message queue compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+message from queue is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-2-2.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-2-3.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-6-1.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-6-2.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-6-3.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-7-1.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-7-2.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-7-3.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+compute-7-0.local - - [08/Nov/2015 21:38:45] "PUT /election HTTP/1.1" 200 -
+election response failHTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election started
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result here   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+election result   
+compute-2-2.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-2-3.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-6-1.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-6-2.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-6-3.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-7-1.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-7-2.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-7-3.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-7-0.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+election result   compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+compute-2-1.local - - [08/Nov/2015 21:38:45] "PUT /result HTTP/1.1" 200 -
+election result
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is 
+uvrocks.local - - [08/Nov/2015 21:38:55] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:38:56] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:38:57] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:38:58] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:38:59] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:39:00] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:39:01] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:39:02] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:39:03] "GET /getCurrentLeader HTTP/1.1" 200 -
+get request and path is compute-2-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-0:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-7-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-6-1:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-3:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and path is compute-2-2:8030
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getNodes HTTP/1.1" 200 -
+get request and leader is compute-7-0:8030HTTP/1.0 200 OK
+Server: BaseHTTP/0.3 Python/2.6.6
+Date: Sun, 08 Nov 2015 20:38:45 GMT
+
+
+uvrocks.local - - [08/Nov/2015 21:39:04] "GET /getCurrentLeader HTTP/1.1" 200 -
